@@ -4,7 +4,7 @@ use k3_wasm_sdk::http::{Request, Response};
 #[http_handler]
 pub fn get(_req: Request<Vec<u8>>) -> Response<Vec<u8>> {
     Response::builder()
-        .status(401)
+        .status(200)
         .body(
             "Hello world from K3"
                 .as_bytes()
