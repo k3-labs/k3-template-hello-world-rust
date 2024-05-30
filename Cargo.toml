@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-k3-wasm-macros = { version = "0.1.6", features = ["nightly"] }
+k3-wasm-macros = { version = "0.1.7", features = ["nightly"] }
 k3-wasm-sdk = "0.1.3"
