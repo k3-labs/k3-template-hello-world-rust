@@ -6,3 +6,5 @@ edition = "2021"
 [dependencies]
 k3-wasm-macros = { version = "0.1.10", features = ["nightly"] }
 k3-wasm-sdk = "0.1.15"
+serde_json = "1.0.113"
+serde = { version = "1.0", features = ["derive"] }
