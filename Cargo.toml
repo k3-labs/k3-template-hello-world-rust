@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-k3-wasm-macros = { version = "0.1.10", features = ["nightly"] }
-k3-wasm-sdk = "0.1.15"
+k3-wasm-macros = { version = "0.1.11", features = ["nightly"] }
+k3-wasm-sdk = "0.1.16"
 serde_json = "1.0.113"
 serde = { version = "1.0", features = ["derive"] }
